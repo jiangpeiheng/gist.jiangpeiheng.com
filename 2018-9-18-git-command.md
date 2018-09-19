@@ -50,7 +50,8 @@ Changes not staged for commit:
 
 PS: we can use the 'git commit -a' to skip the add step;
 
-3. **git commit -m “message comment"** ;commit the repository; save the version;
+3. **git commit -m “message comment"** ;commit the repository; save the version;  
+**git commit -a**: commit the files that have been traced.
 4. **git checkout + commit ID + file**   get back to the old version  
 or: **git checkout --<file>** get back to the previous file.
 5. **git diff**    show the difference that haven\`t be commit  
@@ -66,9 +67,11 @@ the result of diff is a modification of the third version of diff in unix system
 
 ## github operation
 **git clone <url>**  :  make a copy a repository; have a copy in your pc  
-**git remote add <url>**    
+**git remote add <shortname> <url>** : add a new remote repository   
+**git remote show/-v** : show remote repository shortname and its url  
 **git push**     this is used for github, check the version; if your version is one version ahead ,then update the version. (git push only can be used in the web-sync status)  
-**git pull** retrieves changes from the github
+**git pull** retrieves changes from the github  
+**git fetch <remotename>**: you fetch the data but do not merge.
 
 
 ## Merge conflicts
