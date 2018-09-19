@@ -1,6 +1,5 @@
 # gist.jiangpeiheng.com
 
-这个项目
 
 ## 这个项目的目的和将来的用途
 
