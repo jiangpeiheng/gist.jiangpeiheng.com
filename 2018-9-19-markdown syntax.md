@@ -3,7 +3,7 @@
 参考:[atom Markdown help](https://www.jianshu.com/p/f3fd881548ad)  
 [github Markdown help](https://help.github.com/categories/writing-on-github/)
 
-
+- [ ] todo
 
 一级标题
 ===
@@ -11,6 +11,7 @@
 GitHub上的只是基本的语法，什么图形的那些我们在平时文字书写中使用频率太低，所以其中并没有涉及到很高的语法。
 1. 基础语法：标题、字体、引用、图片、连接
 2. 相对高级：代码、表格
+
 
 
 二级标题
@@ -39,6 +40,12 @@ def somfunc(par1='', par2=0):
     return 1
   else:
     return 0
+```
+
+```bash
+git commit
+mv f1 f2
+
 ```
 
 > 这是引用的文字
@@ -74,6 +81,11 @@ Tags: 数学[y1]
 |项目左对齐 |价格右对齐 |数量中间对齐 |
 |-------- | ---: | :----:     |
 |计算机 | $1600 | 5 |
+
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
+
 
 [y1]: http://www.zybuluo.com/mdeditor "yinyong"
 
