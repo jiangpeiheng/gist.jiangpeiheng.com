@@ -14,4 +14,4 @@
 
 【例子】：日心说就比地心说更简洁，就更有趣
 
-【出处】：社会学家Murray Davis在1971年的论文*That\`s Interesing*论文中提出。
+【出处】：社会学家Murray Davis在1971年的论文[That\`s Interesing](https://proseminarcrossnationalstudies.files.wordpress.com/2009/11/thatsinteresting_1971.pdf)论文中提出。
